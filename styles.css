@@ -1,0 +1,87 @@
+html {
+  overflow: hidden; /* prevent white bounce above & below page */
+  height: 100%;
+  width: 100%;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 400;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  margin: 0;
+}
+
+body > div {
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  line-height: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+  min-width: 200px;
+  height: calc(50vh - 60px);
+  width: calc(33vw - 25px);
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  vertical-align: top;
+}
+
+.card > .quote {
+  border: 1px solid white;
+  padding: 20px;
+  height: calc(100% - 40px);
+}
+
+.card span {
+  position: absolute;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.card > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: inherit;
+}
+
+#p2n {
+  background-image: url('p2n.png');
+  background-size: contain;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+#prox {
+  background-image: url('prox-transparent.png');
+  background-size: contain;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+#my-photo {
+  background-image: url('arabia-mountain.jpg');
+  background-size: cover;
+}
+
+#code-for-atlanta {
+  background-image: url('codeforatlanta-transparent.png');
+  background-size: contain;
+}
